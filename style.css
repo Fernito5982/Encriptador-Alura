@@ -175,6 +175,8 @@
 
 .ocultar{
     display: none;
+    visibility:hidden;
+    
 }
 
 /* seccion informacion usuario */
