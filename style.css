@@ -55,7 +55,7 @@
     top: 168px;
     left: 240px;
     border: none;
-
+    resize: none;
     font-weight: 400;
     font-size: 32px;
     font-style: Regular;
@@ -153,6 +153,7 @@
     flex-grow: 0;
 }
 
+/* texto desencriptado */
 
 .msgDesencriptado{
     position: absolute;
@@ -174,4 +175,121 @@
 
 .ocultar{
     display: none;
+}
+
+/* seccion informacion usuario */
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+
+}
+
+
+.info label{
+    width: 205px;
+    height: 18px;
+    position: absolute;
+    left: 24px;
+    opacity: 0.8;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--Gray-400);
+
+    flex: none;
+    order:1;
+    flex-grow: 0;
+
+}
+
+/* Seccion de botones */
+
+.botones{
+    width: 680px;
+    height: 67px;
+    position: absolute;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+
+}
+
+
+.btn{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    box-sizing: border-box;
+
+    
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnEncriptar{
+    background-color: var(--Dark_blue-300);
+}
+
+.btnDesencriptar{
+    background-color:transparent;
+    border: 1px solid var(--Dark_blue-300);
+    color: var(--Dark_blue-300);
+}
+
+.btnEncriptar:hover{
+    background-color: var(--Dark_blue-400);
+    transition: 0.2s;
+
+}
+
+.btnDesencriptar:hover{
+    background-color:var(--Light_blue-300);
+    border: 1px solid var(--Dark_blue-300);
+    transition: 0.2s;
+
+}
+
+.txtBtn{
+
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.btnCopy{
+    position: absolute;
+    top: 845px;
+    left: 32px;
 }
