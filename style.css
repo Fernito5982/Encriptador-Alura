@@ -1,14 +1,17 @@
 :root{
 
     --border: 1px solid #000;
+
 }
 
 *{
 
     background-color: #F3F5FC;
     position: relative;
+    
 }
 
+/* Seccion del logotipo */
 .logo{
     
     width: 120px;
@@ -23,4 +26,15 @@
     width: 31.09px;
     height: 100%;
     left: 44px;
+}
+
+/* Seccion del textarea */
+.textoEncriptar{
+    width: 680px;
+    height: 680px;
+    
+    position: absolute;
+    top: 168px;
+    left: 240px;
+    border: none;
 }
