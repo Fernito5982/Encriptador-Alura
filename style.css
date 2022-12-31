@@ -2,13 +2,31 @@
 
     --border: 1px solid #000;
 
+    --Dark_blue-100:#609ED4;
+    --Dark_blue-200: #356EA9;
+    --Dark_blue-300: #0A3871;
+    --Dark_blue-400: #072B61;
+    --Dark_blue-500: #052051;
+
+    --Light_blue-100:#F3F5FC;
+    --Light_blue-200: #EFF1FA;
+    --Light_blue-300: #E9ECF8;
+    --Light_blue-400: #AAB2D5;
+    --Light_blue-500: #757FB2;
+
+    --Gray-100:#CED4DA;
+    --Gray-200:#ADB5BD;
+    --Gray-300:#868E96;
+    --Gray-400:#495057;
+    --Gray-500:#343A40;
 }
 
 *{
 
     background-color: #F3F5FC;
     position: relative;
-    
+    font-family: 'Inter', sans-serif;
+
 }
 
 /* Seccion del logotipo */
