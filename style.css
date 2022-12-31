@@ -1,0 +1,26 @@
+:root{
+
+    --border: 1px solid #000;
+}
+
+*{
+
+    background-color: #F3F5FC;
+    position: relative;
+}
+
+.logo{
+    
+    width: 120px;
+    height: 48px;
+    position: absolute;
+    left: 40px;
+    top: 40px ;
+    /* border: var(--border); */
+}
+
+.logo img{
+    width: 31.09px;
+    height: 100%;
+    left: 44px;
+}
