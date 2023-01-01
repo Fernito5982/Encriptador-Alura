@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 
+    <!-- MediaQuerys -->
+    <link rel="stylesheet" href="/Css/MediaQueryLaptop.css">
+
+
     <!-- Tipografia Inter de Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,14 +30,17 @@
     <textarea class="textoEncriptar" placeholder="Ingrese el texto aqui"></textarea>
 
     <section class="textoDesencriptado">
-        <img src="/img/Muñeco.png" alt="">
-        <article class="contenedorMsg">
-            <div class="msgInicio ">Ningún mensaje fue encontrado</div>
-            <div class="msgInfo ">
+        <img src="/img/Muñeco.png" alt="" class="ocultar">
+        <article class="msgDesencriptado">
+            <div class="msgInicio ocultar">Ningún mensaje fue encontrado</div>
+            <div class="msgInfo ocultar"> 
                 Ingresa el texto que desees encriptar o desencriptar. 
             </div>
+
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus scelerisque vitae est Tortor maecenas nunc ut laoreet Eget diam mauris quam quisque ut eget fringilla sit elit Libero sodales duis fames id diam feugiat aliquet non egestas
+
         </article>
-        <div class="btn btnDesencriptar btnCopy ocultar">
+        <div class="btn btnDesencriptar btnCopy ">
             <label class="txtBtn">Copiar</label>
         </div>
     </section>
