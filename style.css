@@ -52,7 +52,7 @@
 .textoEncriptar{
     width: 680px;
     height: 680px;
-    /* border: var(--border); */
+    border: var(--border);
     
     position: absolute;
     top: 168px;
@@ -168,7 +168,7 @@
     position: absolute;
     width: 336px;
     height: 781px;
-    left: 32px;
+    left: 30px;
     top: 32px;
     background-color: transparent;
     /* border: 1px solid #000; */
@@ -311,4 +311,36 @@
     left: 32px;
     /* border: var(--border); */
 
+}
+
+.parrafo{
+    width: 300px;
+    height: 450px;
+    background-color: transparent;
+    padding: 10px;
+    overflow: scroll;
+}
+
+
+.parrafo::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.parrafo::-webkit-scrollbar:vertical {
+    width:10px;
+    /* background-color: transparent; */
+}
+
+.parrafo::-webkit-scrollbar-button:increment,.parrafo::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.parrafo::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.parrafo::-webkit-scrollbar-thumb {
+    background-color: var(--Dark_blue-300);
+    border-radius: 20px;
+    border:2px solid #f1f2f3;
 }
