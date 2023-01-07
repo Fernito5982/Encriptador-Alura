@@ -1,0 +1,66 @@
+@media (max-width:375px) {
+
+    .logo{
+        top: 24px;
+        left: 16px;
+    }
+
+    .logo img{
+        left: 0px;
+    }
+
+    .textoEncriptar{
+
+        width: 343px;
+        height: 250px;
+        left: 16px;
+        font-size: 33px;
+        top: 152px ;
+    }
+
+    .info{
+        top: 451px;
+        left: 16px;
+        font-size: 12px;
+    }
+
+    .botones{
+        width: 343px;
+        height: 158px;
+        top: 495px;
+        left: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .textoDesencriptado{
+        top: 690px;
+        left: 24px;
+        width: 327px;
+        height: 300px;
+    }
+
+    .contenedorMsg{
+        width: 263px;
+        height: 122px;
+        gap: 16px;
+        top: 102px;
+        left: 32px;
+    }
+
+    .parrafo{
+        width: 263px;
+        height: 122px;
+        top: 10px;
+    }
+
+    .btnCopy{
+        top: 220px;
+        left: 20px;
+        width: 90%;
+    }
+}
