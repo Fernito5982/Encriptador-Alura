@@ -102,8 +102,7 @@ function mostrarContenedorMsg() {
 function copiarTexto() {
 
     seleccionaTexto();
-    document.execCommand("copy");
-    alert('copiado');
+    document.execCommand("copy")
 }
 
 function limpiarMensaje() {
